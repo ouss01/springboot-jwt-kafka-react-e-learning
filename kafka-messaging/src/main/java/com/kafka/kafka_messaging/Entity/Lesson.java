@@ -20,6 +20,8 @@ public class Lesson {
 
     private String content;
 
+    private int duration;
+
     @ManyToOne
     @JoinColumn(name = "course_id")
     private Course course;

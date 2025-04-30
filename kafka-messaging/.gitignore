@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Application configuration files
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+*.env
+/config/application*.properties
+/config/application*.yml
